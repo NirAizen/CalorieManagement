@@ -1,0 +1,124 @@
+/* popup.css */
+.pup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+
+}
+
+
+.addcalorie {
+    font-family: sans-serif;
+    font-weight: 100;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 50%; /* Adjust the width of the popup box */
+    max-width: 300px; /* Set maximum width to ensure it doesn't get too wide */
+    margin: 0 auto; /* Center the popup box horizontally */
+
+
+}
+
+.addcalorie h5 {
+    margin-top: 0;
+}
+
+.addcalorie label {
+    font-weight: bold;
+}
+
+.addcalorie input[type="text"],
+.addcalorie input[type="number"],
+.addcalorie input[type="string"],
+.addcalorie select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    color: #fff;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.addcalorie input[type="text"]:focus,
+.addcalorie input[type="number"]:focus,
+.addcalorie input[type="string"]:focus,
+.addcalorie select:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+
+}
+
+.addcalorie button {
+    width: calc(100% - 40px); /* Adjust the width relative to the size of the container */
+    padding: 10px 20px;
+    border: none;
+
+    background-color: #55608f;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+
+}
+
+.new-cal-button {
+    padding: 10px 20px;
+    border: 0.5px solid #1f1d1d;
+    background-color: #55608f;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    left: 25%; /* Center horizontally */
+    transform: translateX(-50%);
+    z-index: 999;
+    top: 115px;
+}
+.clear-button {
+    padding: 10px 20px;
+    border: 0.5px solid #1f1d1d;
+    background-color: #55608f;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    left: 35%; /* Center horizontally */
+    transform: translateX(-50%);
+    z-index: 999;
+    top: 115px;
+}
+
+
+.addcalorie button:hover {
+    background-color: #33425b;
+}
+
+.popup-content {
+    background-color: rgba(255, 255, 255, 0.2); /* Adjust opacity as needed */
+    backdrop-filter: blur(8px); /* Add blur effect */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    padding: 20px; /* Add padding for content */
+    box-shadow: 0px 10px 15px 10px rgba(0, 0, 0, 0.15); /* Add shadow */
+    font-family: sans-serif;
+
+}
+.year-month-button{
+    padding: 10px 20px;
+    border: 0.5px solid #1f1d1d;
+    background-color: #55608f;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    left: 45.9%; /* Center horizontally */
+    transform: translateX(-50%);
+    z-index: 999;
+    top: 115px;
+   }
